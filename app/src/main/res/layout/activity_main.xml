@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_height="match_parent" android:layout_width="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_margin="30dp">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:gravity="center"
+        android:text="Various layout"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        style="@style/btn_style"
+ />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="341dp"
+        android:layout_height="50dp"
+        android:text="Linear layout"
+        android:orientation="vertical"
+        style="@style/btn_style"
+        android:background="@drawable/btn_background"
+
+       />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="341dp"
+        android:layout_height="50dp"
+        android:text="Grid layout"
+        android:orientation="vertical"
+        style="@style/btn_style"
+        android:background="@drawable/btn_background"
+       />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="341dp"
+        android:layout_height="50dp"
+        android:text="Relative layout"
+        android:orientation="vertical"
+        style="@style/btn_style"
+        android:background="@drawable/btn_background"
+       />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="341dp"
+        android:layout_height="50dp"
+        android:text="constant layout"
+        android:orientation="vertical"
+        style="@style/btn_style"
+        android:background="@drawable/btn_background"
+       />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="341dp"
+        android:layout_height="50dp"
+        android:text="Table layout"
+        android:orientation="vertical"
+        style="@style/btn_style"
+        android:background="@drawable/btn_background"
+       />
+
+    <Button
+        android:id="@+id/button6"
+        style="@style/btn_style"
+        android:layout_width="341dp"
+        android:layout_height="50dp"
+        android:orientation="vertical"
+        android:text="Frame layout"
+        android:background="@drawable/btn_background"
+        />
+
+
+</LinearLayout>

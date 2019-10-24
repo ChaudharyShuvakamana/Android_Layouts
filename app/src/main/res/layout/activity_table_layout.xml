@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_centerHorizontal="false">
+
+
+    <TableRow android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="User Registration"
+        android:textSize="20dp"
+        android:layout_span="2"
+
+      />
+    </TableRow>
+
+
+    <TableRow android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:layout_margin="20dp"
+        >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:textSize="20dp"
+
+        />
+    <EditText
+        android:id="@+id/edt1"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        />
+    </TableRow>
+
+    <TableRow android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:layout_margin="20dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Email"
+            android:textSize="20dp"
+
+            />
+        <EditText
+            android:id="@+id/edt2"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            />
+    </TableRow>
+
+    <TableRow android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:layout_margin="20dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gender"
+            android:textSize="20dp"
+
+            />
+
+        <RadioGroup
+            android:id="@+id/rbgender"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <RadioButton
+                android:id="@+id/rbmale"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Male"
+
+                />
+
+            <RadioButton
+                android:id="@+id/rbfemale"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Female"/>
+
+            <RadioButton
+                android:id="@+id/rbother"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Other"/>
+
+        </RadioGroup>
+    </TableRow>
+
+    <TableRow android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:layout_margin="20dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Phone"
+            android:textSize="20dp"
+
+            />
+        <EditText
+            android:id="@+id/edt3"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            />
+
+    </TableRow>
+
+    <TableRow android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:layout_margin="20dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="DOB"
+            android:textSize="20dp"
+
+            />
+        <EditText
+            android:id="@+id/edt4"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            />
+    </TableRow>
+
+    <TableRow android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:layout_margin="20dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Country"
+            android:textSize="20dp"
+
+            />
+
+        <Spinner
+            android:id="@+id/spcountry"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            />
+
+    </TableRow>
+
+
+    <TableRow
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:layout_margin="20dp"
+        android:gravity="center"
+        >
+
+    <Button
+        android:id="@+id/btnsubmit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:layout_span="2"
+        android:textSize="25dp"
+        />
+</TableRow>
+</TableLayout>
